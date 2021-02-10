@@ -171,7 +171,6 @@ export default function Home() {
       <footer className={styles.footer}>
         <a
           href="/"
-          target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' Álef Coutinho'}

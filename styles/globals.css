@@ -2,8 +2,14 @@ html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+	overflow: auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body{
+  background-attachment: fixed;/*o Background é travado*/
+  overflow-x: hidden;/*remove a barra de rolagem horizontal*/
 }
 
 a {
