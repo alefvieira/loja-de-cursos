@@ -82,7 +82,7 @@
 }
 
 .card {
-  height: 310px;
+  height: 320px;
   border: #0eb8df solid 1px;
   margin: 1rem;
   flex-basis: 45%;
@@ -136,24 +136,48 @@
 }
 
 
-.logo {
+/* .logo {
   height: 150px;
+} */
+/* @media (max-width: 555px) {
+  
+.card{
+  width: 100%;
+  margin: 1rem 1rem;
+}
+.card {
+  font-size: 0.85rem;
 }
 
-@media (max-width: 600px) {
+} */
+
+@media (max-width: 700px) {
   .grid {
-    
     width: 100%;
     flex-direction: column;
   }
   .card{
-    width: 70%;
+    width: 83%;
     margin: 1rem 1.5rem;
   }
   .card {
     font-size: 0.85rem;
   }
 }
-@media screen and (max-width: 900px){
+
+@media (max-width: 825px) {
+  .card h3{
+    font-size: 0.98rem;
+  }
+  .card h4,.card p{
+    font-size: 0.95rem;
+  }
+  .card:hover h3{
+    font-size: 0.97rem;
+  }
+  .card:hover h4,
+  .card:hover p{
+    font-size: 0.95rem;
+  }
 
 }
