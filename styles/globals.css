@@ -8,6 +8,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 body{
+  background: rgba(0,0,0,0.01);
   background-attachment: fixed;/*o Background é travado*/
   overflow-x: hidden;/*remove a barra de rolagem horizontal*/
 }
