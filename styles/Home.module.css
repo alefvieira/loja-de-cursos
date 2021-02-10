@@ -157,11 +157,12 @@
     flex-direction: column;
   }
   .card{
-    width: 83%;
+    width: 85%;
     margin: 1rem 1.5rem;
   }
   .card {
-    font-size: 0.85rem;
+    font-size: 0.86rem;
+    padding-left: auto;
   }
 }
 
