@@ -1,21 +1,45 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+// essa function vai adicionar um atributo dentro da tag queryselecionada
+// esse atributo será a lang="pt-br"
+
+  function taghtml(){
+    const  addlanghtml = document.querySelector('html');
+    addlanghtml.setAttribute('lang','pt-br');
+  }
+  taghtml();
+
+
 export default function Home() {
+
   
 
   return (
+   
     <div className={styles.container}>
       
       <Head>
+       
       <title>Cursos online - aprenda o que quiser, quando quiser</title>
         <link rel="icon" href="/logoQO.ico" />
-
         <meta 
         name="description"           
         content="Cursos online, aprenda o que quiser, quando quiser. Transforme sua vida, se aperfeçoe e alcance seus objetivos e sonhos."></meta>
+      {/* FIM DO HEAD */}
       </Head>
-
+      {/* INICIO DO CABEÇALHO */}
+      <header className={styles.header}>
+        <a
+          href="/"
+          rel="noreferrer"
+        >
+          
+          <img src="/logoqualifiquese.png" width="150" height="150" alt="QualifiqueseOnline Logo" className={styles.logo} />
+        </a>
+        {/* FIM DO CABEÇALHO */}
+      </header>
+      
       <main className={styles.main}>
 
     
@@ -210,4 +234,7 @@ export default function Home() {
       </footer>
     </div>
   )
+  
 }
+
+

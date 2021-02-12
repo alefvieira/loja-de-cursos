@@ -6,6 +6,7 @@ import { Alert,
 } from 'reactstrap';
 
 const AlertExample = (props) => {
+  
   const [visible, setVisible] = useState(true);
 
   const onDismiss = () => setVisible(false);
